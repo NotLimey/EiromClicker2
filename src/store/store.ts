@@ -1,7 +1,7 @@
 import { createStore } from "redux";
 import { ActionTypes } from "./actions";
 
-export const cookieReducer = function (state = 5, action : ActionTypes) {
+export const cookieReducer = function (state = 0, action : ActionTypes) {
     switch (action.type) {
       case "INCREMENT_COOKIE":
         return state + 1;

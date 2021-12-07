@@ -6,7 +6,7 @@ const EiromCookie = () => {
     const dispatch = useDispatch();
     return (
         <div>
-            <img onClick={() => dispatch({type: INCREMENT_COOKIE})} src={EiromImage} />
+            <img onClick={() => dispatch({type: INCREMENT_COOKIE})} src={EiromImage} alt="" />
         </div>
     );
 }
